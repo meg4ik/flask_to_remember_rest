@@ -2,7 +2,6 @@ import uuid
 
 from src import db
 
-
 class Film(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String, nullable=False)
